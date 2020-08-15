@@ -1,0 +1,64 @@
+.Login-Drawer {
+    height: 500px ;
+    background: red;
+    position: fixed;
+    width: 90% ;
+    
+    max-width: 700px;
+    z-index: 200;
+    transform: translate(45%, 10%);
+    border-radius: 6%;
+    box-shadow: rgba(0, 0, 0, 0.8);
+    /*display: none;*/
+    /*transition: transform .3s ease-out;*/
+}
+.Login-Drawer.Open-Drawer{
+    display: flex;
+}
+
+.Login-Drawer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-Drawer__Inputs{ 
+    margin: auto;
+    transform: translateY(40%);
+    max-width: inherit;
+}
+
+.Login-Drawer__Inputs input{
+    margin: 20px;
+    display: flex;
+    padding: 18px 60px;
+    border-radius: 20px;
+    outline: none;
+    color: #002B4B ;
+    border: 2px #002B4B solid;   
+}
+
+.Login-btn {
+    margin-left: .6rem;
+    color : #002B4B ;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 30%;
+    border: 1px #002B4B solid;
+    outline: none;
+    background-color: transparent;
+}
+
+.Login-btn:hover {
+    background-color: #002B4B;
+    color: white ;
+}
+
+.Login-Drawer__photo {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    transform: translateY(10%);
+    max-width: inherit;
+    margin: auto;
+}

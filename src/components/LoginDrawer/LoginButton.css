@@ -1,0 +1,30 @@
+.Login-btn {
+    width: 60px;
+    height: 25px;
+    margin-left: .6rem;
+    font-weight: 600;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    align-items: center;
+}
+
+.Login-btn:focus {
+    outline:none;
+}
+
+.Login-btn a{
+    color : white ;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 30%;
+    border: 1px white solid;
+    transition: .3s ease;
+}
+
+.Login-btn a:hover {
+    background-color: white;
+    color: #002B4B ;
+}
